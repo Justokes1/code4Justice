@@ -224,7 +224,6 @@ h2 {
 #api{
   margin:auto;
   margin-top:1rem;
-  border:#1B1B1B 2px solid;
   width:60%;
   text-align:center;
   max-height: 80vh;
@@ -232,7 +231,7 @@ h2 {
 }
 
 #api *{
-  margin: .8rem 0 .8rem 0;
+  margin: .8rem auto;
 }
 #apiResults{
   height:200px;
@@ -248,32 +247,21 @@ h2 {
 }
 #resources{
   text-align:center;
-  margin: 1rem 10rem 1rem 10rem;
-  border:#1B1B1B 2px solid;
+  margin: 1rem auto;
+  border-top:#1B1B1B 2px solid;
+  width: 75%;
 }
 #resources a:visited{
   color:green;
 }
+
+#resources h3 {
+  padding: 1rem;
+}
+
 .resourceArticle{
   margin:1rem;
 }
-
-/* STYLES FOR RESOURCES */
-
-#api{
-  margin:auto;
-  margin-top:1rem;
-  border:#1B1B1B 2px solid;
-  width:60%;
-  text-align:center;
-}
-
-  #api *{
-    margin: .8rem 0 .8rem 0;
-  }
-  .job p{
-    display:inline;
-  }
 
 /* STYLES FOR DONATIONS */
 
